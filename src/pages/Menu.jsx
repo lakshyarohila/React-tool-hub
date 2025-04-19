@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const Menu = () => {
   const tools = [
     {
       name: "E-Signature",
@@ -35,9 +35,9 @@ const Home = () => {
     },
   ];
   return (
-    <div className="min-h-screen bg-black p-6">
+    <div className="min-h-screen  p-6">
       <h1 className="text-4xl font-bold text-white text-center mb-10">
-        Tools-Hub
+        Tools
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {tools.map((tool) => (
@@ -63,4 +63,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Menu;
