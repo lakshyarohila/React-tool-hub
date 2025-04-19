@@ -11,6 +11,7 @@ import LandingPage from "./pages/LandingPage";
 import Menu from "./pages/Menu";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import QrCode from './pages/QrCode'
 const App = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/stopwatch" element={<Stopwatch />} />
         <Route path="/e-signature" element={<ESignature />} />
         <Route path="/drawing-canvas" element={<Drawing />} />
+        <Route path="/qr-code" element={<QrCode/>} />
       </Routes>
       <Footer/>
     </div>

@@ -45,7 +45,7 @@ const ESignature = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-black p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center  p-6">
       <h1 className="text-white text-3xl font-bold mb-6">E-Signature Tool</h1>
       <div className="border-2 border-gray-400 rounded-md bg-white">
         <SignatureCanvas

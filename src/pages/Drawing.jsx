@@ -23,7 +23,7 @@ const Drawing = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black flex flex-col items-center p-6">
+    <div className="min-h-screen  flex flex-col items-center p-6">
       <h1 className="text-3xl text-white font-bold mb-4">Sketch Drawing Tool</h1>
 
       <div className="flex gap-4 items-center mb-4">

@@ -29,7 +29,7 @@ const Stopwatch = () => {
   };
   return (
     <div
-      className="bg-black min-h-screen flex flex-col
+      className=" min-h-screen flex flex-col
    items-center justify-center p-6"
     >
       <h1 className="text-white text-3xl font-bold">StopWatch</h1>

@@ -33,6 +33,12 @@ const Menu = () => {
       path: "/drawing-canvas",
       emoji: "🎨",
     },
+    {
+      name: "Qr-Code Generator",
+      description: "Make QR-Codes Easily",
+      path: "/qr-code",
+      emoji: "🔑",
+    },
   ];
   return (
     <div className="min-h-screen  p-6">

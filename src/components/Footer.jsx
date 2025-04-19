@@ -29,7 +29,7 @@ const Footer = () => {
               <h3 className="font-semibold text-white mb-2">Popular Tools</h3>
               <ul className="space-y-2">
                 <li><Link to="/password-generator" className="hover:text-purple-400 transition-colors">Password Generator</Link></li>
-                {/* <li><Link to="/qr-code" className="hover:text-purple-400 transition-colors">QR Code Maker</Link></li> */}
+                <li><Link to="/qr-code" className="hover:text-purple-400 transition-colors">QR Code Maker</Link></li>
                 <li><Link to="/stopwatch" className="hover:text-purple-400 transition-colors">Stopwatch</Link></li>
               </ul>
             </div>

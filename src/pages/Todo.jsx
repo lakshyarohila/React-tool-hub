@@ -22,7 +22,7 @@ const Todo = () => {
     settasks(updated);
   };
   return (
-    <div className="min-h-screen bg-black flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen  flex flex-col items-center justify-center p-4">
       <h1 className="text-white text-3xl font-bold mb-4">To-Do List</h1>
       <div className="flex gap-2 mb-4">
         <input
