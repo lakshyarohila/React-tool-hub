@@ -24,3 +24,21 @@
     height: 100%;
     background: radial-gradient(circle, transparent, rgba(0, 0, 0, 0.9));
   }
+  @keyframes borderAnimation {
+    0% {
+      border-color: rgb(255, 0, 0); /* Red */
+    }
+    33% {
+      border-color: rgb(0, 255, 0); /* Green */
+    }
+    66% {
+      border-color: rgb(0, 0, 255); /* Blue */
+    }
+    100% {
+      border-color: rgb(255, 0, 0); /* Back to Red */
+    }
+  }
+  
+  .animate-border {
+    animation: borderAnimation 3s infinite; /* Duration */
+  }

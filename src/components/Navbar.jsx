@@ -7,10 +7,12 @@ const Navbar = () => {
 
   return (
     <nav className="flex w-full justify-between items-center bg-slate-900 py-4 px-5 sm:px-20">
+     <Link to={'/'}>
       <div className="flex gap-2 items-center text-3xl">
         <DraftingCompass />
         <span className="text-2xl font-medium">Micro Tools</span>
       </div>
+      </Link>
       
       {/* Desktop Menu */}
       <div className="hidden sm:block">

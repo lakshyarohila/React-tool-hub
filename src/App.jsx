@@ -12,6 +12,7 @@ import Menu from "./pages/Menu";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import QrCode from './pages/QrCode'
+import ImageCompressor from "./pages/ImageCompressor";
 const App = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/e-signature" element={<ESignature />} />
         <Route path="/drawing-canvas" element={<Drawing />} />
         <Route path="/qr-code" element={<QrCode/>} />
+        <Route path="/image-compressoer" element={<ImageCompressor/>} />
       </Routes>
       <Footer/>
     </div>

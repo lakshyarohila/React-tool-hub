@@ -39,6 +39,12 @@ const Menu = () => {
       path: "/qr-code",
       emoji: "🔑",
     },
+    {
+      name: "Image Compressor",
+      description: "Convert Big Size Image Into Small In Just One Click",
+      path: "/image-compressoer",
+      emoji: "📷",
+    },
   ];
   return (
     <div className="min-h-screen  p-6">
@@ -46,25 +52,32 @@ const Menu = () => {
         Tools
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        {tools.map((tool) => (
-          <div
-            key={tool.name}
-            className="bg-gray-500 rounded-4xl shadow-2xl p-6 flex flex-col justify-between hover:shadow-xl transition-all"
-          >
-            <div>
-              <div className="text-3xl mb-4 text-white">{tool.emoji}</div>
-              <h2 className="text-xl font-semibold">{tool.name}</h2>
-              <p className="text-gray-300 mt-1">{tool.description}</p>
-              <Link
-                className="mt-6 inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-800 text-center"
-                to={tool.path}
-              >
-                Open Tool
-              </Link>
-            </div>
-          </div>
-        ))}
+  {tools.map((tool) => (
+    <div
+      key={tool.name}
+      className="relative bg-gray-800 rounded-xl shadow-2xl p-6 flex flex-col justify-between hover:shadow-xl transition-all overflow-hidden group"
+    >
+      {/* RGB Running Border */}
+      <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 opacity-70 group-hover:opacity-100 animate-gradient-x"></div>
+      
+      {/* Inner content container */}
+      <div className="absolute inset-0.5 bg-gray-800 rounded-lg z-0"></div>
+      
+      <div className="relative z-10">
+        <div className="text-3xl mb-4 text-white">{tool.emoji}</div>
+        <h2 className="text-xl font-semibold">{tool.name}</h2>
+        <p className="text-gray-300 mt-1">{tool.description}</p>
+        <Link
+          className="mt-6 inline-block font-mono bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-800 text-center"
+          to={tool.path}
+        >
+          Open Tool
+        </Link>
       </div>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 };

@@ -8,3 +8,17 @@ body {
     linear-gradient(to bottom, #1f1f1f 1px, transparent 1px); /* Dark gray grid lines */
   color: #f5f5f5; /* Light text color for contrast */
 }
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 3s linear infinite;
+  background-size: 200% 200%;
+}
