@@ -45,6 +45,19 @@ const Menu = () => {
       path: "/image-compressoer",
       emoji: "📷",
     },
+    {
+      name: "Text To Speech",
+      description: "Convert Your Text Into Speech",
+      path: "/text-speech",
+      emoji: "🗣️",
+    },
+    {
+      name: "BMI Calculator",
+      description: "Calculate your body mass index",
+      path: "/bmi",
+      emoji: "⚖️",
+    },
+   
   ];
   return (
     <div className="min-h-screen  p-6">

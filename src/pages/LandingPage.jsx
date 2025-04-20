@@ -36,7 +36,7 @@ const LandingPage = () => {
   return (
     <div className='w-full items-center min-h-screen flex flex-col px-10 py-20'>
       <section className='text-2xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl'>
-        <h1>Welcome to <span className='text-purple-400'>Micro Tools</span> Where You Find Every Tools That Make Your Life Easy</h1>
+        <h1>Welcome to <span className='text-purple-400'>Micro Tools</span> Where You Find Every Tool That Make Your Life Easy</h1>
       </section>
       
       <section className='mt-4 lg:mt-8'>
