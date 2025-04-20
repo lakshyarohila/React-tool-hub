@@ -57,6 +57,12 @@ const Menu = () => {
       path: "/bmi",
       emoji: "⚖️",
     },
+    {
+      name: "TicTacToe",
+      description: "Fun Game",
+      path: "/fungame",
+      emoji: "🎮",
+    },
    
   ];
   return (

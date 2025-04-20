@@ -15,6 +15,7 @@ import QrCode from "./pages/QrCode";
 import ImageCompressor from "./pages/ImageCompressor";
 import TexttoSpeech from "./pages/TexttoSpeech";
 import BMI from "./pages/BMI";
+import TicTacToe from "./pages/TicTacTo";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/image-compressoer" element={<ImageCompressor />} />
         <Route path="/text-speech" element={<TexttoSpeech />} />
         <Route path="/bmi" element={<BMI/>} />
+        <Route path="/fungame" element={<TicTacToe/>}/>
         
       </Routes>
       <Footer />
